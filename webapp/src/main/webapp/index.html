@@ -16,10 +16,8 @@
 
   </head>
   <body ng-app="operaPrimaApp">
-    <div class="container">
-      <div ui-view name="content"></div>
-    </div>
-
+	<div ui-view="layout"></div>
+    
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
     <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -35,6 +33,7 @@
     
     <!-- Controllers -->
     <script src="js/login/controller/loginCtrl.js"></script>
+    <script src="js/dashboard/controller/DashboardCtrl.js"></script>
     
   </body>
 </html>
