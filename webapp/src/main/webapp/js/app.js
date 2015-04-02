@@ -11,7 +11,7 @@ app.config(function($stateProvider,$urlRouterProvider){
         }
     }).state('operaPrima.login',{
         url: '/login',
-        templateUrl:'js/login/template/loginTemplate.html',
+        templateUrl:'js/login/template/loginView.html',
         controller: 'loginCtrl'
     });
 
