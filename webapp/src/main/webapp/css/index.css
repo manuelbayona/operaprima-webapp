@@ -1,0 +1,15 @@
+.form-signin {
+	padding: 10px;
+	border: 1px solid #FF8000;
+	border-radius: 5px;
+	margin-top: 20%;
+}
+
+.form-control {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.form-signin .helpText {
+	text-align: right;
+}
