@@ -1,0 +1,5 @@
+<div class="profiles">
+	<div ng-repeat="profile in profiles">
+	  <input type="radio" name="profiles" ng-click="profileSelected(profile)">{{profile | profileFullName}}<br>
+	</div>
+</div>

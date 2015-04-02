@@ -49,3 +49,12 @@ input.invalid {
 	background-color: black;
 	opacity: 60%;
 }
+
+.profiles {
+	padding-top: 20%;
+	padding-left: 20%;
+}
+
+.profiles input{
+	margin: 5px;
+}

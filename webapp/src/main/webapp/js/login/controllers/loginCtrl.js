@@ -1,4 +1,4 @@
-app.controller('loginCtrl', ['$scope', function($scope){
+app.controller('loginCtrl', ['$scope','httpFactory', function($scope,httpFactory){
 
 	var opts = {
 	  lines: 13, // The number of lines to draw
@@ -26,7 +26,7 @@ app.controller('loginCtrl', ['$scope', function($scope){
 		var spinner = new Spinner(opts).spin(target);
 		setTimeout(function(){ 
 			spinner.stop();
-			//alert("All right!");
+			httpFactory.login();
 		}, 3000);
 
 		

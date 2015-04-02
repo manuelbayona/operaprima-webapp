@@ -19,6 +19,11 @@ app.config(function($stateProvider,$urlRouterProvider){
         templateUrl:'js/login/templates/loginView.html',
         controller: 'loginCtrl'
     })
+    .state('login.profiles',{
+        url: '/profiles',
+        templateUrl:'js/profiles/templates/profilesTemplate.html',
+        controller: 'profilesCtrl'
+    })
     .state('dashboard',{
     	url: '/dashboard',
         abstract: true,
