@@ -7,7 +7,7 @@ app.config(function($stateProvider,$urlRouterProvider){
         abstract: true,
         views: {
         	'layout': {
-                templateUrl:'js/login/template/loginLayout.html'
+                templateUrl:'js/login/templates/loginLayout.html'
             },
             'content@login': {
                 templateUrl:'js/commons/templates/content.html'
@@ -16,7 +16,7 @@ app.config(function($stateProvider,$urlRouterProvider){
     })
     .state('login.init',{
         url: '/login',
-        templateUrl:'js/login/template/loginView.html',
+        templateUrl:'js/login/templates/loginView.html',
         controller: 'loginCtrl'
     })
     .state('dashboard',{
@@ -24,7 +24,7 @@ app.config(function($stateProvider,$urlRouterProvider){
         abstract: true,
         views: {
         	'layout':{
-        		templateUrl:'js/dashboard/template/dashboardLayout.html',
+        		templateUrl:'js/dashboard/templates/dashboardLayout.html',
         	},
         	'header@dashboard': {
         		templateUrl: 'js/commons/templates/header.html'
@@ -39,7 +39,7 @@ app.config(function($stateProvider,$urlRouterProvider){
     })
     .state('dashboard.init',{
         url: '/init',
-        templateUrl:'js/dashboard/template/dashboardTemplate.html',
+        templateUrl:'js/dashboard/templates/dashboardTemplate.html',
         controller: 'DashboardCtrl'
     });
 
