@@ -22,7 +22,7 @@ app.directive('login', function(){
 		},
 		require: 'ngModel', // Array = multiple requires, ? = optional, ^ = check parent elements
 		restrict: 'EA', // E = Element, A = Attribute, C = Class, M = Comment
-		templateUrl: 'js/components/directives/login/template/loginTemplate.html',
+		templateUrl: 'js/components/directives/login/templates/loginTemplate.html',
 		// replace: true,
 		// transclude: true,
 		//link: function($scope, iElm, iAttrs, controller) {
