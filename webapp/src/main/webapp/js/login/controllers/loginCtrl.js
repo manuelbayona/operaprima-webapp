@@ -30,5 +30,6 @@ app.controller('loginCtrl', ['$scope','httpFactory', function($scope,httpFactory
 		}, 3000);
 
 		
-	}
+	};
+	
 }]);

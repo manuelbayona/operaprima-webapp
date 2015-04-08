@@ -1,6 +1,6 @@
 var app = angular.module('operaPrimaApp', ['ui.router']);
 
-app.config(function($stateProvider,$urlRouterProvider){
+app.config(['$stateProvider','$urlRouterProvider',function($stateProvider,$urlRouterProvider){
     
 	$stateProvider
 	.state('login',{
@@ -10,15 +10,18 @@ app.config(function($stateProvider,$urlRouterProvider){
                 templateUrl:'js/login/templates/loginLayout.html'
             },
             'content@login': {
-                templateUrl:'js/commons/templates/content.html'
+                templateUrl:'js/commons/templates/contentLogin.html'
             }
         }
     })
     .state('login.init',{
         url: '/login',
         templateUrl:'js/login/templates/loginView.html',
-        controller: 'loginCtrl'
-    })
+        controller: 'loginCtrl',
+        data: {
+        	css: 'css/login.css'
+        }
+     })
     .state('login.profiles',{
         url: '/profiles',
         templateUrl:'js/profiles/templates/profilesTemplate.html',
@@ -54,4 +57,4 @@ app.config(function($stateProvider,$urlRouterProvider){
     });
 
 	$urlRouterProvider.otherwise('/login');
-});
+}]);
