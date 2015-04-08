@@ -11,7 +11,7 @@ app.controller('DashboardCtrl', ['$scope','$rootScope', function($scope, $rootSc
 			title: "Grupos",
 			description: "Consulta tus grupos",
 			image: "content/icons/groups.png",
-			stateLink:"login.init"
+			stateLink:"dashboard.mygroups"
 		 },
 		 {
 			title: "Perfil",

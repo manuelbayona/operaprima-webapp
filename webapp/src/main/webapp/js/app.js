@@ -46,6 +46,11 @@ app.config(function($stateProvider,$urlRouterProvider){
         url: '/init',
         templateUrl:'js/dashboard/templates/dashboardTemplate.html',
         controller: 'DashboardCtrl'
+    })
+    .state('dashboard.mygroups',{
+        url: '/myGroups',
+        templateUrl:'js/groups/templates/groupsTemplate.html',
+        controller: 'groupsCtrl'
     });
 
 	$urlRouterProvider.otherwise('/login');
