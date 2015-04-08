@@ -58,3 +58,31 @@ input.invalid {
 .profiles input{
 	margin: 5px;
 }
+
+/*HEADER*/
+
+.navbar-login
+{
+    width: 305px;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.navbar-login-session
+{
+    padding: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.icon-size
+{
+    font-size: 87px;
+}
+
+.navbar-title {
+	text-align:center;
+	padding-top:5px;
+}
+
+/*END HEADER*/

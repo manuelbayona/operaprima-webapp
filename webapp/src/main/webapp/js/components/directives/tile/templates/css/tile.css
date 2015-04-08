@@ -12,7 +12,7 @@
     box-shadow: none;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 .tile:hover {
@@ -28,6 +28,7 @@
     overflow: hidden;
     text-align: center;
     background-color: rgba(214, 224, 226, 0.2);
+	border-bottom: orange 5px solid;
 }
 
 .tile.tile-hover .tile-header {
@@ -50,7 +51,10 @@
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    border: 5px solid rgba(255,255,255,0.5);
+    /*border: 5px solid rgba(255,255,255,0.5);*/
+    border: 5px solid black;
+    padding:5px;
+    background-color: rgb(246, 248, 248);
 }
 
 .tile.tile-hover .tile-info {

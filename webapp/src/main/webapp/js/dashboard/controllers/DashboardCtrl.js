@@ -1,33 +1,34 @@
-app.controller('DashboardCtrl', ['$scope', function($scope){
+app.controller('DashboardCtrl', ['$scope','$rootScope', function($scope, $rootScope){
+	$rootScope.title="Inicio";
 	$scope.tiles=[
 	     {
 			title: "Horario",
 			description: "Consulta tu horario",
-			image: "http://www.sanjeronimo.es/images/stories/Curso2013_2014/mayo/calendario.png",
+			image: "content/icons/calendar.png",
 			stateLink:"login.init"
 	     },
 	     {
 			title: "Grupos",
 			description: "Consulta tus grupos",
-			image: "http://www.sanjeronimo.es/images/stories/Curso2013_2014/mayo/calendario.png",
+			image: "content/icons/groups.png",
 			stateLink:"login.init"
 		 },
 		 {
 			title: "Perfil",
 			description: "Consulta tu perfil",
-			image: "http://www.sanjeronimo.es/images/stories/Curso2013_2014/mayo/calendario.png",
+			image: "content/icons/profile.png",
 			stateLink:"login.init"
 		 },
 		 {
 			title: "Recibos",
 			description: "Consulta tus recibos",
-			image: "http://www.sanjeronimo.es/images/stories/Curso2013_2014/mayo/calendario.png",
+			image: "content/icons/bills.png",
 			stateLink:"login.init"
 		 },
 		 {
 			title: "Recibos",
 			description: "Consulta tus recibos",
-			image: "http://www.sanjeronimo.es/images/stories/Curso2013_2014/mayo/calendario.png",
+			image: "content/icons/bills.png",
 			stateLink:"login.init"
 		 }
 	 ];
