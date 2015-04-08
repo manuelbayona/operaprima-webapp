@@ -19,8 +19,6 @@ app.controller('loginCtrl', ['$scope','httpFactory', function($scope,httpFactory
 	  left: '50%' // Left position relative to parent
 	};
 
-
-
 	$scope.formCallBack = function(){
 		var target = document.getElementById('loginView');
 		var spinner = new Spinner(opts).spin(target);

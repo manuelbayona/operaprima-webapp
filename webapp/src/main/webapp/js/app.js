@@ -17,10 +17,7 @@ app.config(['$stateProvider','$urlRouterProvider',function($stateProvider,$urlRo
     .state('login.init',{
         url: '/login',
         templateUrl:'js/login/templates/loginView.html',
-        controller: 'loginCtrl',
-        data: {
-        	css: 'css/login.css'
-        }
+        controller: 'loginCtrl'
      })
     .state('login.profiles',{
         url: '/profiles',
