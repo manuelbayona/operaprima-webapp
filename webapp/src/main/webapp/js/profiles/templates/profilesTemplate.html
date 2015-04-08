@@ -1,5 +1,15 @@
 <div class="profiles">
 	<div ng-repeat="profile in profiles">
-	  <input type="radio" name="profiles" ng-click="profileSelected(profile)">{{profile | profileFullName}}<br>
+		<div class="col-sm-3">
+			<div class="profileCard" ng-click="profileSelected(profile)">
+			 	<div class="header-bg" width="250" height="70"></div>
+				<div class="avatar">
+					<img alt="{{profile.name}}" src="content/icons/defaultAvatar.png">
+				</div>
+				<div class="content">
+					<p>{{profile | profileFullName}}</p>
+				</div>
+			</div>
+		</div>
 	</div>
 </div>
