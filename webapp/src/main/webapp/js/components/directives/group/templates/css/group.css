@@ -1,7 +1,9 @@
 .group {
-	border: 1px solid;
+	border-top: 1px solid orange;
+	border-left: 1px solid orange;
+	border-bottom: 5px solid orange;
+	border-right: 1px solid orange;
 	border-radius: 5px;
-	padding: 5%;
 	margin-top: 5%;
 }
 
@@ -10,12 +12,14 @@
 }
 
 .group .name {
-	font-size: 3em;
-	font-weight: bold;
+  font-size: 3em;
+  font-weight: bold;
+  background-color: orange;
+  padding: 2% 5% 0% 5%;
 }
 
 .group .info {
-	padding-top: 1%;
+	padding: 1% 5% 5% 5%;
 
 }
 
