@@ -1,0 +1,30 @@
+.group {
+	border: 1px solid;
+	border-radius: 5px;
+	padding: 5%;
+	margin-top: 5%;
+}
+
+.row:last-child {
+	margin-bottom: 5%
+}
+
+.group .name {
+	font-size: 3em;
+	font-weight: bold;
+}
+
+.group .info {
+	padding-top: 1%;
+
+}
+
+.group .info .description {
+	padding-top: 1%;
+
+}
+
+.group .info label {
+	font-weight: bold;
+	min-width: 125px;
+}

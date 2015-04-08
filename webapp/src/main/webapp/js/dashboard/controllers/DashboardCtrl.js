@@ -10,7 +10,7 @@ app.controller('DashboardCtrl', ['$scope', function($scope){
 			title: "Grupos",
 			description: "Consulta tus grupos",
 			image: "http://www.sanjeronimo.es/images/stories/Curso2013_2014/mayo/calendario.png",
-			stateLink:"login.init"
+			stateLink:"dashboard.mygroups"
 		 },
 		 {
 			title: "Perfil",
